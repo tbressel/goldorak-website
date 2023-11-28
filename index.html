@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goldorak sur Amstrad GX4000, il arrive bientôt !!</title>
+    <meta name="description" content="Le jeu Goldorak arrive bientôt sur l'Amstrad GX4000 mais aussi sur les micro-ordinateur de la gammes Plus. A l'exception des DMA, tout le hardware de la console à été utilisé : plus de 48 couleurs simultanées parmis la palette 16bits de la machine, les sprites hard ainsi que leur zoom, la rupture à la ligne via le PRI de l'ASIC et également un scrolling hard vertical au pixel. Je jeu à été dessiné et scénarisé par Eric Cubizolle, alias Titan. La musiques du jeu à été composé et/ou adapté pas Johan Dr Fatalis à l'aide du soft Arkos Tracker 2. Et le code c'est Thomas 'Zisquier' Bressel, en full assembleur.">
+    <link rel="stylesheet" href="./assets/css/index-min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo__container">
+            <img src="./assets/img/logo_goldorak-min.png" alt="logo goldorak">
+            <!-- <img src="./assets/svg/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg" alt="logo deklic"> -->
+        </div>
+        <div class="text__container">
+            <h1>Arrive <br>
+                bientôt sur <br>
+                <span>
+                    Amstrad GX4000, <br>
+                    Amstrad 6218 / 464 Plus
+                </span>
+            </h1>
+
+            <p>
+                Démarré en décembre 2022, mis en pause en mai 2023, le code avance de nouveau et le jeu en est maintenant à sa version bêta.
+            </p>
+            <p>
+            - Zisquier (Amstariga) : Programmation<br>
+            - Pulsophonic : Musique<br>
+            - TITAN (Eric Cubizolle) : Graphisme & Scénario<br>
+            </p>
+        </div>
+    </header>
+
+    <div class="overlay__container">
+
+    </div>
+
+
+    <div class="column__container">
+        <div class="column1__container">
+            <div class="square pic7"></div>
+            <div class="square pic1"></div>
+            <div class="square color2">
+                <div class="square pic5"></div>
+            </div>
+            <div class="square logo color3"></div>
+            <div class="square pic7"></div>
+            <div class="square pic1"></div>
+            <div class="square pic4"></div>
+            <div class="square logo color3"></div>
+        </div>
+        <div class="column2__container">
+            <div class="square logo color3"></div>
+            <div class="square pic8">
+              
+            </div>
+            <div class="square pic6">         
+            </div>
+            <div class="square pic2"></div>
+            <div class="square logo color3"></div>
+            <div class="square pic8">
+              
+            </div>
+            <div class="square pic6b">
+              
+            </div>
+            <div class="square pic2"></div>
+        </div>
+        <div class="column3__container">
+            <div class="square pic7"></div>
+            <div class="square pic9"></div>
+
+            <div class="square logo color3"></div>
+            <div class="square pic7"></div>
+            <div class="square pic3"></div>
+            <div class="square pic9"></div>
+            <div class="square logo color3"></div>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+
+        <div class="countdown__container">
+            <div id="days">
+                <p></p>
+                <p>Jours</p>
+            </div>
+            <div id="hours">
+                <p></p>
+                <p>Heures</p>
+            </div>
+            <div id="minutes">
+                <p></p>
+                <p>Minutes</p>
+            </div>
+            <div id="secondes">
+                <p></p>
+                <p>Secondes</p>
+            </div>
+        </div>
+
+<p>
+    Allez ! pour patienter ton ami Zisquier va te chanter une petite chanson ! : <br> <a class="music" href="./assets/sounds/Goldorock by Zisquier (2013).mp3">"GoldoROCK" enregistré quelque part en 2013 ;)</a>
+</p>
+
+    </footer>
+
+<div class="ufo">
+    <img src="./assets/img/grendizer-ufo-removebg-preview.png" alt="ufo-goldorak">
+</div>
+
+
+<div id="popup" class="popup draggable" draggable="true">
+    <div class="bulle">
+        <p class=" center-v">
+            Goldorak v0.1b (28-11-2023)
+        </p>
+    </div>
+    <div class="controle draggable">
+        <div id="cross" class="btn__close">
+        </div>
+        <div class="btn__sound">
+        </div>
+        <div id="btn__play" class="btn__play">
+        </div>
+    </div>
+    <video id="video">
+        <source src="./assets/videos/teaser_beta.mp4">
+    </video>
+</div>
+
+
+    <script src="./assets/js/script-min.js"></script>
+</body>
+
+</html>
